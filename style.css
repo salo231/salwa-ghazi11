@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #ffe4e1, #fff0f5);
+}
+
+.container {
+    width: 320px;
+    margin: 100px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #ff4da6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e60073;
+}
+
+header {
+    background: #ff4da6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background: #ff4da6;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #ff4da6;
+    
+    color: white;
+}
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #ff4da6;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #ffe4e1, #fff);
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff4da6;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* FEATURES */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    background: #fff0f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* PRODUCTS */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* TABLE */
+.price-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.price-table th {
+    background: #ff4da6;
+    color: white;
+}
+
+.price-table th, .price-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* FORM */
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ff4da6;
+    color: white;
+}
+/* BACKGROUND */
+.auth-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+}
+
+/* MAIN BOX */
+.auth-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.auth-box {
+    background: white;
+    padding: 35px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* HEADER */
+.auth-header h1 {
+    margin-bottom: 5px;
+    color: #ff4da6;
+}
+
+.auth-header p {
+    color: gray;
+    font-size: 14px;
+}
+
+/* FORM */
+.auth-form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box label {
+    font-size: 13px;
+    color: #333;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* BUTTON */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #ff4da6;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #e60073;
+}
+
+/* FOOTER */
+.auth-footer {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth-footer a {
+    color: #ff4da6;
+    text-decoration: none;
+    font-weight: bold;
+}
